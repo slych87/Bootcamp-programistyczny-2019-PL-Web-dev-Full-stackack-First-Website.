@@ -1,0 +1,91 @@
+
+        body{
+            padding: 0;
+            margin: 0;
+            --glowny-kolor: #97B735;
+        }
+        /*navigacia*/
+        nav{
+            background-color: var(--glowny-kolor);     
+                  
+        }
+        nav ul{
+            list-style: none;
+            padding: 10px;
+            margin: 0px;
+        }
+        nav ul li {
+            display: inline;
+            margin: 20px;
+        }
+        nav ul li button {
+            padding: 5px;
+            color: var(--glowny-kolor);
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        nav ul li a{
+            color:white;
+            text-decoration: none;
+        }
+        /*glowny baner*/
+        #banner{
+            width: 100%;
+        }
+        /*glowna skcja*/
+        #obrazki{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: space-around;
+            background-color: #f4f4f4;
+        }
+        article{
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: space-around;
+            background-color: #54504f;
+            color: white;
+        }
+        article h2{
+            color: var(--glowny-kolor);
+            margin-bottom: 10px;
+        }
+        article p a{
+            color: var(--glowny-kolor);
+            
+        }
+        .kolumna{
+            padding: 30px;
+        }
+        #autor{
+            margin-top: 100px;
+            background-image: url('assets/avatar.png');
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 100px;
+            padding-left: 110px;            
+        }
+        footer{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            justify-content: space-evenly;
+            background-color:var(--glowny-kolor);
+            color: white;
+            padding: 5px 100px 30px 100px ;
+        }
+        footer div{
+            padding: 10px;
+            
+        }
+        footer h4{
+            font-size: 15px;
+            margin: 10px 0 0 0;
+        }
+        }
+        footer h4 i{
+            font-size: 25px;            
+        }
+        footer p{
+            margin: 0;
+            font-size: 10px;
+        }
